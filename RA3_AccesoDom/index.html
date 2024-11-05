@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es" id="stylePage" style="background-color: rgb(204, 228, 240);">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor Interactivo de Tareas</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="tituloPrincipal">Titulo</h1>
+        <p id="mensajeBienvenida">Bienvenido a nuestro gestor interactivo de tareas</p>
+    </header>
+    <h3>Formulario de Usuario </h3>
+    <div>
+        <input type="text" id="inputNombre" placeholder="Ingresa tu nombre">
+        <button id="btnActualizarNombre">Actualizar Nombre</button>
+    </div>
+    <div>
+        <label for="colorUsuario">Elige un color para tu nombre:</label>
+        <select id="colorUsuario">
+            <option value="rojo">Rojo</option>
+            <option value="verde">Verde</option>
+            <option value="azul">Azul</option>
+            <option value="amarillo">Amarillo</option>
+        </select>
+    </div>
+    <h3>Gestor de Tareas</h3>
+    <div>
+        <ul id="listaTareas">
+            <li>Tarea 1</li>
+            <li>Tarea 2</li>
+            <li>Tarea 3</li>
+        </ul>
+        <input type="text" id="inputTarea">
+        <button id="btnAgregarTarea">Agregar Tarea</button>
+    </div>
+    <h3>Caja de Información Interactiva</h3>
+    <div>
+        <div id="cuadroInfo1" class="cuadroInfo1" style="width:100px; height:100px; color:rgb(0, 0, 0);">Pasa el ratón aquí para cambiar el color</div>
+        <div id="cuadroInfo2" class="cuadroInfo2">Haz doble clic para ocultarme</div>
+    </div>
+    <h3>Galeria imagenes</h3>
+    <div id="galeria">
+        <img id="imagenGaleria" class="imagenGaleria" src="https://images.vexels.com/media/users/3/312015/isolated/lists/299da0e53c291021ce8883a0f8d4e8b7-cartulina-para-rellenar-formularios.png" alt="Descripción de la imagen 1">
+        <img id="imagenGaleria" class="imagenGaleria" src="https://images.vexels.com/media/users/3/312015/isolated/lists/299da0e53c291021ce8883a0f8d4e8b7-cartulina-para-rellenar-formularios.png" alt="Descripción de la imagen 2">
+        <img id="imagenGaleria" class="imagenGaleria" src="https://images.vexels.com/media/users/3/312015/isolated/lists/299da0e53c291021ce8883a0f8d4e8b7-cartulina-para-rellenar-formularios.png" alt="Descripción de la imagen 3">
+    </div>
+    <h3>Botones de Control de Estilos</h3>
+    <div>
+        <button id="btnOcultarTareas">Ocultar - Mostrar Lista de Tareas</button>
+        <button id="btnAlternarTema">Alternar Tema</button>
+    </div>
