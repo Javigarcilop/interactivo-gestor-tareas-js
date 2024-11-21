@@ -32,4 +32,4 @@ Este proyecto es una aplicación web interactiva para gestionar tareas, personal
 
 Clona el repositorio:
 ```bash
-git clone https://github.com/usuario/proyecto.git](https://github.com/Javigarcilop/interactivo-gestor-tareas-js.git)
+git clone https://github.com/Javigarcilop/interactivo-gestor-tareas-js.git
